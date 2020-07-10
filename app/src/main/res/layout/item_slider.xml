@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/slider_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcom to Chatty"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/slider_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat with someone somewhere in the world at one click. No login required!"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:src="@drawable/chat_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

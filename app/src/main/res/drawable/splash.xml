@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <color android:color="@color/white"/>
+    </item>
+    <item android:drawable="@drawable/message_bubble"
+        android:left="100dp"
+        android:right="100dp"
+        android:top="230dp"
+        android:bottom="230dp" />
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image_options">
+        <item>Select from gallry</item>
+        <item>Capture from camera</item>
+        <item>cancel</item>
+    </array>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeesh.chatty.ChatActivity">
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/recycler_view_chat"></android.support.v7.widget.RecyclerView>
+
+
+    <!--<EditText-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="@dimen/send_button_width"-->
+        <!--android:id="@+id/et"-->
+        <!--app:layout_anchor="@id/recycler_view_chat"-->
+        <!--app:layout_anchorGravity="left|top"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:background="@drawable/input_text_chat"/>-->
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="@dimen/send_button_width"-->
+        <!--android:layout_height="@dimen/send_button_width"-->
+        <!--android:id="@+id/f"-->
+        <!--app:layout_anchor="@id/recycler_view_chat"-->
+        <!--app:layout_anchorGravity="right|top"-->
+        <!--android:layout_marginRight="10dp"/>-->
+
+        <!--STARY-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="@dimen/pick_image_fab_width"-->
+        <!--android:layout_height="@dimen/pick_image_fab_width"-->
+        <!--android:id="@+id/fab1"-->
+        <!--app:layout_anchor="@id/fab2"-->
+        <!--app:layout_anchorGravity="top|center"-->
+        <!--android:layout_marginBottom="140dp"-->
+        <!--android:src="@android:drawable/ic_menu_gallery"-->
+        <!--android:visibility="invisible"/>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="@dimen/pick_image_fab_width"-->
+        <!--android:layout_height="@dimen/pick_image_fab_width"-->
+        <!--android:id="@+id/fab2"-->
+        <!--app:layout_anchor="@id/btn_send_chat"-->
+        <!--app:layout_anchorGravity="top|center"-->
+        <!--android:layout_marginBottom="70dp"-->
+        <!--android:src="@android:drawable/ic_menu_camera"-->
+        <!--android:visibility="invisible"/>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1"-->
+        <!--android:gravity="bottom"-->
+        <!--android:paddingTop="80dp"-->
+        <!--android:paddingBottom="0dp"-->
+        <!--app:layout_anchor="@id/recycler_view_chat"-->
+        <!--app:layout_anchorGravity="bottom">-->
+
+        <!--<EditText-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/send_button_width"-->
+            <!--android:paddingStart="10dp"-->
+            <!--android:hint="Type message"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="-10dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/input_text_chat"-->
+            <!--android:id="@+id/edit_text_chat"/>-->
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="0"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="@dimen/send_button_width"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:visibility="invisible"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/pick_image_from_gallery_chat"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@android:drawable/ic_menu_gallery" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:visibility="invisible"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/capture_image_from_camera_chat"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@android:drawable/ic_menu_camera"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+
+            <!--&lt;!&ndash;android:layout_margin="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="@dimen/send_button_width"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="@dimen/send_layout_height"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/btn_pic_chat"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@android:drawable/ic_menu_add"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:backgroundTint="@color/colorBtnSend"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginRight="20dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="@dimen/send_button_width"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="@dimen/send_layout_height"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="0.1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/btn_send_chat"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/send_btn"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:backgroundTint="@color/colorBtnSend"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:backgroundTintMode="multiply"/>&ndash;&gt;-->
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_width="@dimen/send_button_width"-->
+            <!--android:layout_height="@dimen/send_button_width"-->
+            <!--android:id="@+id/btn_send_chat"-->
+            <!--android:src="@android:drawable/ic_menu_camera"/>-->
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@id/input_wrapper"
+        />
+    <LinearLayout
+        android:id="@+id/input_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="parent"
+        android:background="#fff">
+        <EditText
+            android:id="@+id/edit_text_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:paddingLeft="15dp"
+            android:hint="Type message..."
+            android:paddingRight="5dp"
+            android:background="#fff"/>
+
+        <ImageView
+            android:id="@+id/btn_send_chat"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_attach_file_black_24dp"/>
+    </LinearLayout>
+
+        <!--END-->
+
+</android.support.constraint.ConstraintLayout>

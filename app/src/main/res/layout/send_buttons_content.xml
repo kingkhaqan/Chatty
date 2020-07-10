@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/ed_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:minWidth="250dp"
+        android:maxWidth="300dp"/>
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_add"
+        app:layout_constraintLeft_toRightOf="@id/ed_one"
+        android:minWidth="60dp"
+        />
+    <Button
+        android:minWidth="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_send"
+        app:layout_constraintLeft_toRightOf="@id/btn_one"/>
+
+</android.support.constraint.ConstraintLayout>

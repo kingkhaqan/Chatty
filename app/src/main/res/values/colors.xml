@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#07513c</color>
+    <color name="colorPrimaryDark">#043829</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="receiverMsgBg">#f0f0f0</color>
+    <color name="senderMsgBg">#0584ff</color>
+    <color name="senderMsgText">#f8fafa</color>
+    <color name="receiverMsgText">#272727</color>
+    <color name="textMsgTime">#dcccd1</color>
+    <color name="imageMsgTime">#ffffff</color>
+    <color name="colorBtnSend">#000</color>
+    <color name="colorBtnStart">#2a598b</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorGray">#dedbdb</color>
+    <!--<color name="senderTextColor">#</color>-->
+</resources>

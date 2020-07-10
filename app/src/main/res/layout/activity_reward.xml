@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeesh.chatty.RewardActivity">
+
+    <ImageView
+        android:id="@+id/image_icon_rewarded"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/star"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/num_star_rewarded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textColor="#000"
+        android:textSize="50dp"
+        app:layout_constraintLeft_toRightOf="@id/image_icon_rewarded"
+        app:layout_constraintTop_toBottomOf="@id/image_icon_rewarded"
+        app:layout_constraintBottom_toTopOf="@id/image_icon_rewarded"/>
+
+    <Button
+        android:id="@+id/btn_watch_video_rewarded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch Video"
+        app:layout_constraintTop_toBottomOf="@id/image_icon_rewarded"/>
+
+</android.support.constraint.ConstraintLayout>
